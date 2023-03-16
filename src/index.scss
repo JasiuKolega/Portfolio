@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000400;
+}
+
+.h3 {
+  text-decoration: underline 4px rgb(82, 82, 82);
+  text-underline-offset: 6px;
+  font-size: 20px;
+}
+
+#root {
+  height: 1400px;
+  overflow: hidden;
+}
+
+.title {
+  background-color: #00040D;
+  color: white;
+}
+
+.card {
+
+  .hellocard {
+    margin: 0 auto;
+  }
+}
+
+.menubutton {
+
+  &:hover {
+    background-color: #00040D;
+    opacity: 0.83;
+  }
+
+  &:active {
+    background-color: #00040D;
+    opacity: 0.83;
+  }
+}
+
+.container {
+  overflow: hidden;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  backdrop-filter: blur(10px);
+  // background: #20202380;
+
+  .tohome:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .works:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .posts:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
