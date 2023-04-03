@@ -25,7 +25,7 @@ export const MainHome = () => {
                             maxWidth={'100px'}
                             display={'inline-block'}
                             borderRadius={'100%'}
-                            src={'./moyarozha.png'}
+                            src={'./myphoto.jpg'}
                         />
                     </Box>
                 </Box>
